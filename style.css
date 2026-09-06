@@ -1,0 +1,30 @@
+/* ==========================================================
+   PurpleScreen — stylesheet
+   Original visual identity. Purple + white. Mobile-first RTL.
+   ========================================================== */
+
+:root{
+  --primary:#6D28D9;
+  --primary-2:#8B5CF6;
+  --primary-light:#EDE9FE;
+  --bg:#FAF9FF;
+  --card:#FFFFFF;
+  --text:#17122B;
+  --muted:#716A80;
+  --border:rgba(23,18,43,.09);
+  --shadow:0 12px 30px rgba(109,40,217,.10);
+  --shadow-sm:0 4px 14px rgba(109,40,217,.08);
+  --radius-lg:22px;
+  --radius-md:14px;
+  --radius-sm:10px;
+  --header-h:64px;
+  --danger:#C2410C;
+  --ok:#5B21B6;
+  --gradient: linear-gradient(135deg,var(--primary) 0%,var(--primary-2) 55%,#B794F6 100%);
+  --font: 'Vazirmatn', 'Segoe UI', system-ui, sans-serif;
+}
+
+[data-theme="dark"]{
+  --primary:#A78BFA;
+  --primary-2:#8B5CF6;
+  --primary-light:#2C2148;
